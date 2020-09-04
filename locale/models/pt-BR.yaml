@@ -1,0 +1,49 @@
+User:
+  label*:
+    s: Usuário
+    p: Usuários
+  attributes:
+    Confirmed: Confirmado
+    Name: Nome de Usuário
+    AdvancedRolesString: Papéis Avançados
+    Role: Papel
+  form:
+    sections:
+      Basic Information: Informações Básicas
+  actions:
+    Delete: Excluir
+    Bulk Delete: Excluir
+    Bulk Logout: Logout
+
+UserAuthAlias:
+  AuthAliases:
+    label*:
+      s: Alias de Autenticação
+      p: Aliases de Autenticação
+
+  attributes:
+    ID: Alias
+    Description: Descrição
+
+SetPassword:
+  label*:
+    s: Alterar Senha
+  attributes:
+    YourPassword: Sua senha
+    NewPassword: Nova senha
+    PasswordConfirm: Confirme a nova senha
+
+Group:
+  label*:
+    s: Grupo
+    p: Grupos
+
+  attributes:
+    Name: Nome
+    Description: Descrição
+
+UserGroup:
+  Users:
+    label*:
+      s: Usuário
+      p: Usuários
